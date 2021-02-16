@@ -1,0 +1,33 @@
+h1{
+    color: rgb(226, 96, 21);
+    font-size: 2rem;
+}
+.f-1{
+    text-align: center;
+    border: 2px solid red;
+    padding: 10px;
+    padding-bottom: 50px;
+    background-color: lightpink;
+    width: 400px;
+    margin: 150px  auto;
+}
+body {
+    background-image: url(https://www.hdwallpapers.in/download/zhongli_with_dragon_hd_genshin_impact-HD.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+button {
+    background-color:rgb(168, 69, 135); /* Green */
+    width: 6cm;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+input{
+    width: 6cm;
+    font-size: 1rem;
+   margin: 10px;
+}

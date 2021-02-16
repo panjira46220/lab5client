@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<title>Test</title>
+<link rel="stylesheet" href="index.css">
+
+<body>
+    <div class="f-1">
+        <h1>Login</h1></i>
+            <input type="text" id="user" name="username" placeholder="username">
+            <input type="text" id="pass" name="password" placeholder="password">
+        <br><button onclick="foo();">Sign-in</button>
+        
+    </div>
+
+    <script>
+    function foo() {
+        var p1 = document.getElementById("user").value;
+        var p2 = document.getElementById("pass").value;
+        console.log(p1)
+        if(p1=="foo" && p2=="bar"){
+            alert('Correct' );
+        }
+        else{
+            alert('Wrong' );
+        }
+    }
+ </script>
+     
+</body>
+
+</html>
